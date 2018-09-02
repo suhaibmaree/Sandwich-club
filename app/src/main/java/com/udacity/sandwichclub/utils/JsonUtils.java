@@ -23,7 +23,7 @@ public class JsonUtils {
             //++++++++++++++++++++++++++++++++
 
             //alsoKnownAs from Json ** Array
-            JSONArray alsoKnownAsArr =item.getJSONArray("alsoKnownAs");
+            JSONArray alsoKnownAsArr =itemName.getJSONArray("alsoKnownAs");
             List< String > alsoKnownAsList =new ArrayList<>();
             for (int i=0; i < alsoKnownAsArr.length(); i++){
                 alsoKnownAsList.add(alsoKnownAsArr.getString(i));
